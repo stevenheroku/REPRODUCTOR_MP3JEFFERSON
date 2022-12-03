@@ -38,5 +38,10 @@ namespace REPRODUCTOR_MP3J.Clases.reproducir
             this.siguiente = siguiente;
         }
 
+        public void setRegresar(Nodo anterior)
+        {
+            this.siguiente = anterior;
+        }
+
     }
 }
