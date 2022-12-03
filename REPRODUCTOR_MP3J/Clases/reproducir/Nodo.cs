@@ -15,7 +15,7 @@ namespace REPRODUCTOR_MP3J.Clases.reproducir
         public Nodo siguiente;// hace simulacion de la variable enlace
 
 
-
+        //constructor
         public Nodo(string direcion)
         {
             this.direccion = direcion;

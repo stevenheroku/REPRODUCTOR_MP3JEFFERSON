@@ -59,7 +59,7 @@ namespace REPRODUCTOR_MP3J.Clases.reproducir
         }
 
 
-
+        //elimina un nodo usando la direccion
         public void eliminarNodo(string direcc)
         {
             Nodo actual = new Nodo(direcc);
@@ -114,6 +114,7 @@ namespace REPRODUCTOR_MP3J.Clases.reproducir
 
         }
 
+        //busca una canción por medio de su ruta
         public bool buscar(String ruta)
         {
             Nodo aux = primero;
